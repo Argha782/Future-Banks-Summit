@@ -1,16 +1,123 @@
-# React + Vite
+# Future Banks Summit KSA – Event Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern event website built using **React.js** and **Tailwind CSS**  
+as part of the **Xcode Tech Solutions Pvt Ltd – Full Stack Developer Technical Assessment**.
 
-Currently, two official plugins are available:
+The project is based on the **4th Annual Future Banks Summit & Awards – KSA**, focusing on
+digital innovation and the future of banking in Saudi Arabia.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Preview
+(Optional – add if deployed)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://your-live-link.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 GitHub Repository
+https://github.com/Argha782/Future-Banks-Summit
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js (Vite)
+- Tailwind CSS
+- React Icons
+- Intersection Observer API (for scroll-based animations)
+
+---
+
+## ✨ Features
+
+- Fully responsive modern UI (mobile, tablet, desktop)
+- Smooth navigation with fixed navbar
+- Scroll-based section animations
+- Clean, reusable component architecture
+- Event-focused hero section with CTA
+- Agenda highlights & key themes
+- Speaker & audience sections
+- Registration form (frontend demo)
+- Professional footer with social links
+
+---
+
+## 🎨 UI & UX Highlights
+
+- Premium dark-themed conference design
+- Consistent spacing and typography
+- Accessible contrast and branding
+- Smooth hover and reveal animations
+- Logo visibility optimized for dark backgrounds
+
+---
+
+## 📁 Project Structure
+
+src/
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Themes.jsx
+│   ├── WhyAttend.jsx
+│   ├── Agenda.jsx
+│   ├── Speakers.jsx
+│   ├── Venue.jsx
+│   ├── Registration.jsx
+│   ├── Footer.jsx
+│   └── SectionWrapper.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## ⚙️ Setup & Installation
+
+1. Clone the repository:
+git clone https://github.com/Argha782/Future-Banks-Summit.git
+
+2. Navigate to the project folder:
+cd Future-Banks-Summit
+
+3. Install dependencies:
+npm install
+
+4. Run the development server:
+npm run dev
+
+The app will be available at:
+http://localhost:5173
+
+---
+
+## 🚀 Build for Production
+
+npm run build
+
+---
+
+## 🧪 Notes
+
+- Frontend-only project.
+- Registration form is a demo.
+- Data used is for assessment purposes only.
+
+---
+
+## 👨‍💻 Developer
+
+**Argha Saha**
+
+GitHub: https://github.com/Argha782  
+LinkedIn: https://www.linkedin.com/in/argha-saha-80527a208/
+
+---
+
+## 📌 Acknowledgment
+
+This project was developed as part of the **Xcode Tech Solutions Pvt Ltd**
+technical interview process for the **Full Stack Developer** role.
