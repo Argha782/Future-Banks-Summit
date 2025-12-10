@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SectionWrapper from "./SectionWrapper";
 
 const initialForm = {
   name: "",
@@ -28,7 +29,8 @@ const Registration = () => {
   };
 
   return (
-    <section id="register" className="container">
+    <section id="register" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">Register Interest</p>
       <h2 className="section-heading">
         Secure your place at Future Banks Summit &amp; Awards – KSA
@@ -163,6 +165,7 @@ const Registration = () => {
           </ul>
         </div>
       </div>
+      </SectionWrapper>
     </section>
   );
 };

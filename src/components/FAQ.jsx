@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import SectionWrapper from "./SectionWrapper";
 const faqs = [
   {
     q: "Is this a physical or virtual event?",
@@ -23,7 +23,8 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section id="faq" className="container pb-16 md:pb-24">
+    <section id="faq" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">FAQ</p>
       <h2 className="section-heading">
         Frequently asked questions about the summit
@@ -52,6 +53,7 @@ const FAQ = () => {
           );
         })}
       </div>
+      </SectionWrapper>
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SectionWrapper from "./SectionWrapper";
 
 const days = {
   "Day 1": [
@@ -43,7 +44,8 @@ const Agenda = () => {
   const [active, setActive] = useState("Day 1");
 
   return (
-    <section id="agenda" className="container">
+    <section id="agenda" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">Agenda Highlights</p>
       <h2 className="section-heading">
         Two days of content, conversations, and recognition
@@ -92,6 +94,7 @@ const Agenda = () => {
           with confirmed participants.
         </p>
       </div>
+      </SectionWrapper>
     </section>
   );
 };

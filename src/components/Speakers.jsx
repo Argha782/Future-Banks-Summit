@@ -1,4 +1,5 @@
 import React from "react";
+import SectionWrapper from "./SectionWrapper";
 
 const speakers = [
   {
@@ -21,7 +22,8 @@ const speakers = [
 
 const Speakers = () => {
   return (
-    <section id="speakers" className="container">
+    <section id="speakers" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">Featured Speakers*</p>
       <h2 className="section-heading">
         Hear from the leaders shaping banking in KSA
@@ -33,7 +35,8 @@ const Speakers = () => {
 
       <div className="mt-8 grid gap-5 md:grid-cols-4">
         {speakers.map((sp) => (
-          <article
+          <SectionWrapper animation="animate-fadeUp">
+            <article
             key={sp.name}
             className="rounded-3xl border border-white/10 bg-slate-950/70 p-4"
           >
@@ -48,6 +51,7 @@ const Speakers = () => {
             </h3>
             <p className="mt-1 text-[11px] text-slate-300">{sp.title}</p>
           </article>
+          </SectionWrapper>
         ))}
       </div>
 
@@ -55,6 +59,7 @@ const Speakers = () => {
         *For the technical assignment, speaker details are illustrative. In a
         real project these would be CMS-driven or fetched from an API.
       </p>
+      </SectionWrapper>
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import SectionWrapper from "./SectionWrapper";
 
 const audienceGroups = [
   {
@@ -41,7 +42,8 @@ const audienceGroups = [
 
 const Audience = () => {
   return (
-    <section id="audience" className="container">
+    <section id="audience" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">Who Will Attend?</p>
       <h2 className="section-heading">
         Decision-makers across KSA’s banking ecosystem
@@ -69,6 +71,7 @@ const Audience = () => {
           </div>
         ))}
       </div>
+      </SectionWrapper>
     </section>
   );
 };

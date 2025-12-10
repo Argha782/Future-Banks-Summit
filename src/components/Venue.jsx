@@ -1,8 +1,9 @@
 import React from "react";
-
+import SectionWrapper from "./SectionWrapper";
 const Venue = () => {
   return (
-    <section id="venue" className="container">
+    <section id="venue" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">Venue & Format</p>
       <h2 className="section-heading">
         Hosted in the heart of Riyadh&apos;s financial district
@@ -56,6 +57,7 @@ const Venue = () => {
           </p>
         </div>
       </div>
+      </SectionWrapper>
     </section>
   );
 };

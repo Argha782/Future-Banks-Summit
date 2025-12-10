@@ -1,8 +1,11 @@
 import React from "react";
+import SectionWrapper from "./SectionWrapper";
+
 
 const About = () => {
   return (
-    <section id="about" className="container">
+    <section id="about" className="container py-16 md:py-24 scroll-mt-24">
+      <SectionWrapper animation="animate-fadeUp">
       <p className="section-title">About the Summit</p>
       <h2 className="section-heading">
         Powering the next era of digital banking in KSA
@@ -16,7 +19,7 @@ const About = () => {
       </p>
 
       <div className="mt-8 grid gap-6 md:grid-cols-3 text-sm text-slate-200">
-        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5">
+        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5 hover:scale-105">
           <h3 className="text-sm font-semibold text-white">
             Designed for decision makers
           </h3>
@@ -26,7 +29,7 @@ const About = () => {
             financial institutions in the Kingdom.
           </p>
         </div>
-        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5">
+        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5 hover:scale-105">
           <h3 className="text-sm font-semibold text-white">
             Curated, practical content
           </h3>
@@ -36,7 +39,7 @@ const About = () => {
             analytics, and digital onboarding.
           </p>
         </div>
-        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5">
+        <div className="rounded-3xl border border-white/10 bg-slate-950/70 p-5 hover:scale-105">
           <h3 className="text-sm font-semibold text-white">
             Awards & peer recognition
           </h3>
@@ -47,6 +50,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      </SectionWrapper>
     </section>
   );
 };

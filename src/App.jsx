@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import StatsStrip from "./components/StatsStrip";
 import About from "./components/About";
-import Themes from "./components/Topics";
+import Themes from "./components/Themes";
 import WhyAttend from "./components/WhyAttend";
 import Audience from "./components/Audience";
 import Agenda from "./components/Agenda";
