@@ -11,7 +11,7 @@ digital innovation and the future of banking in Saudi Arabia.
 ## 🌐 Live Preview
 (Optional – add if deployed)
 
-https://your-live-link.vercel.app
+https://fbs-indol.vercel.app
 
 ---
 
@@ -55,8 +55,11 @@ https://github.com/Argha782/Future-Banks-Summit
 
 ## 📁 Project Structure
 
+```text
 src/
 ├── assets/
+│   └── Future-Banks-Summit-KSA-2023.png
+│
 ├── components/
 │   ├── Navbar.jsx
 │   ├── Hero.jsx
@@ -69,9 +72,11 @@ src/
 │   ├── Registration.jsx
 │   ├── Footer.jsx
 │   └── SectionWrapper.jsx
+│
 ├── App.jsx
 ├── main.jsx
 └── index.css
+```
 
 ---
 
